@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real Estate Cards</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+      padding: 20px 25px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+    }
+
+    .card img {
+      width: 200px;
+    }
+
+    .card-content {
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: #11375b;
+    }
+
+    .card-desc {
+      font-size: 0.95rem;
+      color: #2e2d2d;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .card button {
+      background-color: transparent;
+      border: 1px solid #0066cc;
+      color: #0066cc;
+      padding: 8px 16px;
+      border-radius: 12 px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .card button:hover {
+      background-color: #A4EB3C;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Buy -->
+    <div class="card">
+      <img src="/images/buy.png" alt="Buy">
+      <div class="card-content">
+        <h3 class="card-title">Buy </h3>
+        <p class="card-desc">Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
+        <a href="buy.html"><button>Browse properties</button></a>
+      </div>
+    </div>
+     <!-- Rent -->
+    <div class="card">
+      <img src="/images/rent.png" alt="Rent">
+      <div class="card-content">
+        <h3 class="card-title">Rent</h3>
+        <p class="card-desc">We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
+        <a href="rent.html"><button>Find rentals</button></a>
+      </div>
+    </div>
+    <!-- Sell -->
+    <div class="card">
+      <img src="/images/sell.png" alt="Sell">
+      <div class="card-content">
+        <h3 class="card-title">Sell</h3>
+        <p class="card-desc">No matter what path you take to sell your property, we can help you navigate a successful sale.</p>
+        <a href="sell.html"><button>See your options</button></a>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/686771c6f389bf19111c3afd/1iva18sc2';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+
+</body>
+</html>

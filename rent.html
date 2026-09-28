@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="properties.css" />
+  <title>Rent</title>
+</head>
+<body>
+  <nav class="navbar">
+   <div class="logo">
+  <img src="/images/Logo.jpg" alt="Land Leap Logo">
+  <span class="brand-title">Land Leap</span>
+</div>
+    <div class="search-container">
+      <select name="location" id="location">
+        <option value="">Select Location</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="chennai">Chennai</option>
+      </select>
+
+      <select name="category" id="category">
+        <option value="">Select Type</option>
+        <option value="apartment">Apartment</option>
+        <option value="independent house">Independent House</option>
+      </select>
+
+      <button type="submit">Search</button>
+    </div>
+  </nav>
+
+  <!-- START Property Sections -->
+  <div class="buy-container1">
+    <!-- Cards for Hyderabad Apartments -->
+    <div class="image-container" data-location="hyderabad" data-category="apartment">
+      <div class="card">
+        <img src="/img-rent/apt1.jpeg" />
+        <div class="info">
+          <h2>Sunset Gardens, Road No. 8, Madhapur</h2>
+          <p>Hyderabad</p>
+          <p>4, 5 BHK</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="hyderabad" data-category="apartment">
+      <div class="card">
+        <img src="img-rent/apt-5.jpg" />
+        <div class="info">
+          <h2>102, Lakeside Land, ECR Road, Neelangarai</h2>
+          <p>Hyderabad</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="hyderabad" data-category="apartment">
+      <div class="card">
+        <img src="img-rent/apt-4.jpg" />
+        <div class="info">
+          <h2>Silver Oak Complex, Street 5, Kondapur</h2>
+          <p>Hyderabad</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buy-container1">
+    <!-- Bangalore Independent Houses -->
+    <div class="image-container" data-location="bangalore" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-2.jpg" />
+        <div class="info">
+          <h2>8, Greenfield Residency, Koramangala</h2>
+          <p>Bangalore</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="bangalore" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-3.jpg" />
+        <div class="info">
+          <h2>27, Riverside Heights, Whitefield</h2>
+          <p>Bangalore</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="bangalore" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-6.jpg" />
+        <div class="info">
+          <h2>8, Greenfield Residency, Koramangala</h2>
+          <p>Bangalore</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buy-container1">
+    <!-- Chennai Independent Houses -->
+    <div class="image-container" data-location="chennai" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-4.jpg" />
+        <div class="info">
+          <h2>89, Lakeview Road, Ashok Nagar</h2>
+          <p>Chennai</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="chennai" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-5.jpg" />
+        <div class="info">
+          <h2>56, Greenfield Villas, Chromepet</h2>
+          <p>Chennai</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="chennai" data-category="independent house">
+      <div class="card">
+        <img src="img-rent/idh-1.jpg" />
+        <div class="info">
+          <h2>102, Blossom Street, Adyar</h2>
+          <p>Chennai</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buy-container1">
+    <!-- Bangalore Apartments -->
+    <div class="image-container" data-location="bangalore" data-category="apartment">
+      <div class="card">
+        <img src="img-rent/apt-6.jpg" />
+        <div class="info">
+          <h2>58, Hillview Land, Nandi Hills</h2>
+          <p>Bangalore</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="bangalore" data-category="apartment">
+      <div class="card">
+        <img src="img-rent/apt-3.jpeg" />
+        <div class="info">
+          <h2>Sunrise Residency, 90, BTM Layout</h2>
+          <p>Bangalore</p>
+          <p>1, 2 BHK</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-container" data-location="bangalore" data-category="apartment">
+      <div class="card">
+        <img src="img-rent/apt-2.jpg" />
+        <div class="info">
+          <h2>Skyline Apartments, 102, HSR Layout Bangalore</h2>
+          <p>Bangalore</p>
+          <p>1, 2 BHK</p>
+          <strong>Price on Request</strong><br />
+          <a href="https://wa.me/7816041920" target="_blank" class="button">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="back-button-container">
+    <a href="index.html"><button class="bt1">← Back</button></a>
+  </div>
+
+  <!-- Custom Modal -->
+  <div id="customModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <p>No availability found for the selected options.</p>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.search-container button').addEventListener('click', function () {
+      const selectedLocation = document.getElementById('location').value.toLowerCase();
+      const selectedCategory = document.getElementById('category').value.toLowerCase();
+
+      const allContainers = document.querySelectorAll('.buy-container1');
+      let anyVisible = false;
+
+      allContainers.forEach(container => {
+        const cards = container.querySelectorAll('.image-container');
+        let containerHasVisibleCard = false;
+
+        cards.forEach(card => {
+          const location = card.getAttribute('data-location').toLowerCase();
+          const category = card.getAttribute('data-category').toLowerCase();
+
+          const locationMatch = !selectedLocation || location === selectedLocation;
+          const categoryMatch = !selectedCategory || category === selectedCategory;
+
+          if (locationMatch && categoryMatch) {
+            card.style.display = 'block';
+            containerHasVisibleCard = true;
+            anyVisible = true;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        container.style.display = containerHasVisibleCard ? 'flex' : 'none';
+      });
+
+      if (!anyVisible) {
+        const modal = document.getElementById("customModal");
+        modal.style.display = "flex";
+
+        const closeBtn = document.querySelector(".close-btn");
+        closeBtn.onclick = () => {
+          modal.style.display = "none";
+          window.location.reload();
+        };
+
+        setTimeout(() => {
+          modal.style.display = "none";
+          window.location.reload();
+        }, 3000);
+      }
+    });
+  </script>
+  <script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/686771c6f389bf19111c3afd/1iva18sc2';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+</body>
+</
